@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOODLES</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="icon" href="Noodles.png" type="image/png">
+</head>
+<body>
+    <div id="maindiv">
+        <div id="div11">
+        <div id="div1">
+            <div id="div1left">
+                <p id="text">Noodles Doodle</p>
+            </div>
+            <div id="div1right">
+                <ul id="drop">
+                    <li><a href="#div5">Contact</a></li>
+                    <li><a href="#div4">Menu</a></li>
+                    <li><a href="#div3">About</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div id="div2"></div>
+        <div id="div3">
+            <div id="div3left"></div>
+            <div id="div3right">
+                <p id="text2">About Catering</p>
+                <p id="text3"> Tradition Since 2023</p>
+                <p id="text4">The Catering, founded by M. Saif ur Rehman, is a culinary venture dedicated to delighting your taste buds with an exquisite array of dishes. Our specialty lies in crafting the most delectable noodles, carefully prepared to perfection. With a passion for exceptional flavors and a commitment to using only the freshest ingredients, we take pride in offering a memorable dining experience. Whether you're seeking traditional favorites or daring new creations, The Catering's noodles are sure to satisfy your cravings and leave you craving for more. Experience the essence of culinary excellence with us.</p>
+                <br><p id="text5">At our catering, we believe in the power of noodles to bring people together. Whether you're planning a corporate event, a family gathering, or a special celebration, our diverse noodle offerings are designed to cater to every palate. From savory stir-fried noodles to rich and creamy noodle soups, our menu is a testament to our dedication to culinary excellence. Experience the perfect blend of flavors and textures in every bite, and let us make your next event a noodle-filled celebration to remember.</p>
+            </div>
+        </div>
+        <div id="div4">
+            <div id="div4left">
+                <p id="text2">Our Menu</p>
+                <p class="text6">Classic Noodles</p>
+                <p class="text7">buttered Noodles, Spaghetti & Meatballs, Pasta Fresca</p>
+                <p class="text6">Asian Noodles</p>
+                <p class="text7">Spicy korean Beaf Noodles, Pad Thai, Japanese Pan Noodles</p>
+                <p class="text6">Stuffed Pasta</p>
+                <p class="text7">Cheese Rosa, Chese Pesto, Roasted Garlic Cream</p>
+                <p class="text6">Salad & Soup</p>
+                <p class="text7">Backyard BBQ Chicken Salad</p>
+            </div>
+            <div id="div4right"></div>
+        </div>
+        <div id="div5">
+            <p id="text11">Contact</p>
+            <p id="text8">We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <p id="text9">Catering Service, 7th Commercial Lane, Phase 4, DHA, Karachi</p>
+            <p id="text10">You can also contact us by phone 021-35351323 or email catering@catering.com, or you can send us a message here:
+            </p>
+            <form id="contactForm">
+                <input type="text" placeholder="Name" class="input1" required>
+                <input type="number" placeholder="How many people" class="input1" required>
+                <input type="datetime-local" placeholder="Date and Time" class="input1" required>
+                <input type="text" placeholder="Message / Special requirements" class="input1" required>
+                <button type="submit" id="button">SEND MESSAGE</button>
+            </form>
+        </div>
+        <div id="div6">
+            <h1 id="heading">Made By M. Saif ur Rehman !!!</h1>
+        </div>
+    </div>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevents the default form submission behavior
+            
+            // Display success message
+            alert('Your message has been successfully sent!');
+            
+            // Clear input fields
+            document.querySelectorAll('.input1').forEach(input => input.value = '');
+        });
+    </script>
+</body>
+</html>

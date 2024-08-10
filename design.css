@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+@font-face {
+    font-family: myfont;
+    src: url("font.otf");
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+#maindiv{
+    width: 100%;
+    height: 100%;
+}
+#div11{
+    width: 100%;
+    height: 3.5vw;
+}
+#div1{
+    width: 100%;
+    height: 3.5vw;
+    box-shadow: 0 0.25vw 0.5vw 0 rgba(0, 0, 0, 0.2), 0 0.375vw 1.25rem 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    position: fixed;
+    background-color: white;
+}
+#div1left{
+    height: 100%;
+    width: 20vw;
+    padding-left: 2vw;
+}
+#text{
+    margin-top: 1vw;
+    font-size: 1.3vw;
+    letter-spacing: 0.3vw;
+    word-spacing: 0.7vw;
+    color: rgb(36, 30, 30);
+}
+#div1right{
+    height: 100%;
+    width: 80vw;
+}
+#drop{
+    list-style-type: none;
+    margin-right: 2vw;
+    overflow: hidden;
+}
+#drop li{
+    margin-top: 0.8vw;
+    padding: 0.5vw 1vw 0.5vw 1vw;
+    float: right;
+    font-size: 0.8vw;
+}
+#drop li a{
+    text-decoration: none;
+    color: rgb(36, 30, 30);
+    letter-spacing: 0.3vw;
+}
+#drop li:hover{
+    background-color: silver;
+}
+#div2{
+    width: 100%;
+    height: 41vw;
+    background-image: url("logo.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0.25vw 0.5vw 0 rgba(0, 0, 0, 0.2), 0 0.375vw 1.25rem 0 rgba(0, 0, 0, 0.19);
+}
+
+#div3{
+    width: 100%;
+    height: 52vw;
+    border-bottom: 0.125vw solid rgb(207, 203, 203);
+    display: flex;
+}
+#div3left{
+    width: 50%;
+    height: 100%;
+    background-image: url("2.jpeg");
+    background-size: 80% 80%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#text2,#text3,#text11{
+    font-size: 2.5vw;
+    color: rgb(36, 30, 30);
+    margin-top: 15%;
+    text-align: center;
+}
+#text3{
+    font-size: 1.3vw;
+    margin-top: 5%;
+}
+#text4,#text5{
+    line-height: 1.8;
+    font-size: 1vw;
+    margin-top: 2%;
+    color: rgb(36, 30, 30);
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 15%;
+    text-align: justify;
+}
+#text5{
+    margin-top: 1%;
+    color: gray;
+}
+#div3right{
+    width: 50%;
+    height: 100%;
+}
+#div4{
+    width: 100%;
+    height: 52vw;
+    display: flex;
+    border-bottom: 0.125vw solid rgb(207, 203, 203);
+}
+#div4left{
+    width: 50%;
+    height: 100%;
+}
+.text6,.text7{
+    color: black;
+    font-size: 1.1vw;
+    margin-left: 19%;
+    margin-top: 8%;
+    letter-spacing: 0.5vw;
+
+
+}
+.text7{
+    margin-top: 4%;
+    font-size: 1vw;
+    color: grey;
+    letter-spacing: 0.15vw;
+}
+#div4right{
+    width: 50%;
+    height: 100%;
+    background-image: url("3.jpeg");
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    margin-right: 3%;
+}
+
+#div5{
+    width: 100%;
+    height: 47vw;
+}
+#text8,#text9,#text10{
+    margin-left: 9%;
+    margin-top: 8%;
+    line-height: 1.8;
+    font-size: 0.9vw;
+    margin-top: 2%;
+    color: rgb(36, 30, 30);
+    margin-right: 9%;
+    text-align: justify;
+}
+#text11{
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 10%;
+}
+#text9{
+    margin-top: 1%;
+    color: #607DA9;
+    font-size: 1.3vw;
+    font-weight: bold;
+
+}
+#text10{
+    margin-top: 1%;
+
+}
+.input1{
+    width: 82%;
+    margin-top: 1%;
+    margin-left: 9%;
+    margin-right: 9%;
+    height: 3.8vw;
+    border: none;
+    border-bottom: 0.125vw solid rgb(207, 203, 203);
+    padding-left: 1%;
+    font-size: 0.9vw;
+    color: gray;
+}
+#button{
+    margin-top: 3%;
+    margin-left: 9%;
+    width: 10%;
+    height: 2.5vw;
+    background-color: rgb(232, 232, 232);
+    border: none;
+    color: rgb(36, 30, 30);
+    font-size: 1vw;
+}
+#button:hover{
+    background-color: silver;
+}
+#div6{
+    width: 100%;
+    height: 9.5vw;
+    background-color: rgb(232, 232, 232);
+}
+#heading{
+    text-align: center;
+    padding-top: 3.5%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 2.5vw;
+}
