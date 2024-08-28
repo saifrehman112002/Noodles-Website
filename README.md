@@ -31,11 +31,11 @@ The Noodles Doodle website is a fictional catering service website created to sh
 
 Here are some screenshots of the Noodles Doodle website:
 
-1. ![Screenshot 1](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS1.png)
-2. ![Screenshot 2](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS2.png)
-3. ![Screenshot 3](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS3.png)
-4. ![Screenshot 4](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS4.png)
-5. ![Screenshot 5](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS5.png)
+![Screenshot 1](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS1.png)
+![Screenshot 2](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS2.png)
+![Screenshot 3](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS3.png)
+![Screenshot 4](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS4.png)
+![Screenshot 5](https://github.com/saifrehman112002/Noodles-Website/blob/main/SS5.png)
 
 ## Getting Started
 
